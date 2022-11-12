@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://galacticdrake.github.io",
+  "homepage": "https://galacticdrake.github.io/",
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.9",
     "@testing-library/jest-dom": "^5.14.1",
