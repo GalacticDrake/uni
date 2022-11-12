@@ -1,0 +1,100 @@
+@use "library";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  background: library.$white;
+  color: library.$darkblue !important;
+  text-decoration: none;
+  padding: 8px 16px;
+
+  &:hover {
+    background: library.$grey-3;
+  }
+}
+
+a:link,
+a:visited {
+  color: library.$lightblue;
+  text-decoration: none;
+
+  &.rowlink {
+    color: library.$black;
+
+    :hover {
+      background-color: library.$grey-3;
+    }
+  }
+}
+
+.footer {
+  background-color: library.$black;
+  color: library.$white;
+
+  .footer-column {
+    padding: 32px 0;
+  }
+}
+
+.not-focused-dark {
+  color: library.$grey-1;
+}
+
+.not-focused-light {
+  color: library.$grey-2;
+}
+
+.page-height {
+  height: calc(100vh - 177px - 70px);
+}
+
+.main-container {
+  padding: 32px 0;
+}
+
+// table
+table {
+  margin: 16px 0;
+  border: solid 1px library.$grey-2;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 4px 8px;
+  border: solid 1px library.$grey-2;
+}
+
+// custom
+.blue-text {
+  color: library.$darkblue !important;
+}
+
+.grey-text {
+  color: library.$grey-2 !important;
+}
+
+.darkgrey-text {
+  color: library.$grey-1 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// others
+.transport-page {
+  padding: 32px 0;
+}

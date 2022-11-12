@@ -1,0 +1,32 @@
+@use "library";
+
+.slider-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.min-height {
+  min-height: 250px;
+}
+
+.caption-block {
+  width: 100%;
+  background-color: library.$darkblue;
+  color: library.$white;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.image-block {
+  width: 40%;
+  background-size: 100%;
+  background-position: center;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}

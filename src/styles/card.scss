@@ -1,0 +1,90 @@
+@use "library";
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 150px;
+  max-width: 30%;
+}
+
+.image-card-block {
+  width: 100%;
+  height: 164px;
+  margin-bottom: 8px;
+  background-size: cover;
+}
+
+.row-outer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: solid 1px library.$grey-2;
+  padding: 16px;
+}
+
+.course-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.course-title {
+  margin-bottom: 16px;
+  color: library.$darkblue;
+}
+
+.course-image {
+  height: 200px;
+  background-size: cover;
+  background-position: 20%;
+}
+
+.course-column {
+  background-color: library.$grey-1;
+  padding: 16px;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.course-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.course-body-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header-info-title {
+  color: library.$grey-2;
+}
+
+.header-info-body {
+  color: library.$white;
+}

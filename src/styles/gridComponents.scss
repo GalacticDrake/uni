@@ -1,0 +1,14 @@
+@use "library";
+
+.grid-container {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.top-heading {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

@@ -1,0 +1,41 @@
+.layout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.layout-inner {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.layout-inner-horizontal {
+  display: flex;
+  flex-direction: row;
+
+  &.g-32 {
+    gap: 32px;
+  }
+
+  &.g-16 {
+    gap: 16px;
+  }
+
+  &.g-8 {
+    gap: 8px;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 0px 1 1;
+  gap: 8px;
+}
+
+.layout-two-column {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0;
+  gap: 32px;
+}

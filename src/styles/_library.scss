@@ -1,0 +1,43 @@
+$darkblue: #02234e;
+$lightblue: #0572b8;
+
+$white: #fff;
+$grey-1: #505050;
+$grey-2: #dadada;
+$grey-3: #eeeeee;
+$black: #000;
+
+@mixin font($size: 14px, $transform: none, $weight: normal) {
+  font-size: $size;
+  text-transform: $transform;
+  font-weight: $weight;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-h2 {
+  @include font($size: 28px, $weight: 800);
+}
+
+.heading-h3 {
+  @include font($size: 20px, $weight: 800);
+}
+
+.heading-h6 {
+  @include font($size: 16px, $weight: 800);
+}
+
+.body {
+  @include font;
+}
+
+.body-bold {
+  @include font($weight: 800);
+}
+
+.subtitle-1 {
+  @include font($size: 12px);
+}
+
+.subtitle-2 {
+  @include font($size: 12px, $transform: uppercase, $weight: 800);
+}

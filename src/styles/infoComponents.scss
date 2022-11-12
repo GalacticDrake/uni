@@ -1,0 +1,50 @@
+@use "library";
+
+.info-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+
+  .navlink {
+    text-decoration: none;
+    color: library.$grey-1;
+  }
+
+  .navlink-hover:hover {
+    color: library.$lightblue;
+  }
+  .static {
+    color: library.$darkblue;
+  }
+}
+
+.divider {
+  margin: 16px 0;
+  height: 1px;
+  width: 100%;
+  background: library.$grey-2;
+}
+
+.date-container {
+  margin-bottom: 16px;
+  color: library.$darkblue;
+}
