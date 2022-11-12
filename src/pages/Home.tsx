@@ -11,25 +11,25 @@ const Home = () => {
   const tempArray = [
     {
       id: 1,
-      img: "/assets/event.png",
+      img: "assets/event.png",
       title: "BEM",
       subtitle: "03 November 2022",
     },
     {
       id: 2,
-      img: "/assets/event.png",
+      img: "assets/event.png",
       title: "BEM",
       subtitle: "03 November 2022",
     },
     {
       id: 3,
-      img: "/assets/event.png",
+      img: "assets/event.png",
       title: "BEM",
       subtitle: "03 November 2022",
     },
     {
       id: 4,
-      img: "/assets/event.png",
+      img: "assets/event.png",
       title: "BEM",
       subtitle: "03 November 2022",
     },
