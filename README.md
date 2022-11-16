@@ -16,6 +16,10 @@ It should be emphasised that this project is not optimised for actual use (media
 - Programmes -> Undergraduate
 - Campus Life -> Facilities and accommodation
 
+## Backend Involvement
+
+Since this project is only used for one part of the usability study, there is no backend involvement. Data extracted is done using a "mock" api and stored as JavaScript objects.
+
 ## Reference Link
 
 Hosted on github pages: https://galacticdrake.github.io/uni/
