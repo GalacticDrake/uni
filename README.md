@@ -10,8 +10,12 @@ It should be emphasised that this project is not optimised for actual use (media
 
 ## Pages Available
 
-Home
-About -> Basic background and contact info
-Admissions -> Faculties and scholarship
-Programmes -> Undergraduate
-Campus Life -> Facilities and accommodation
+- Home
+- About -> Basic background and contact info
+- Admissions -> Faculties and scholarship
+- Programmes -> Undergraduate
+- Campus Life -> Facilities and accommodation
+
+## Reference Link
+
+Hosted on github pages: https://galacticdrake.github.io/uni/
