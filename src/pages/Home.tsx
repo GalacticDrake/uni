@@ -11,27 +11,31 @@ const Home = () => {
   const tempArray = [
     {
       id: 1,
-      img: "assets/event.png",
-      title: "BEM",
-      subtitle: "03 November 2022",
+      img: "assets/event1.png",
+      link: "event/1",
+      title: "Nine Teams of XMUM Students Win Prizes at CUMCM 2022",
+      subtitle: "15 November 2022",
     },
     {
       id: 2,
-      img: "assets/event.png",
-      title: "BEM",
-      subtitle: "03 November 2022",
+      img: "assets/event2.png",
+      link: "event/1",
+      title: "NESE Postgraduate Students Win Gold and Silver Medals",
+      subtitle: "15 November 2022",
     },
     {
       id: 3,
-      img: "assets/event.png",
-      title: "BEM",
-      subtitle: "03 November 2022",
+      img: "assets/event3.png",
+      link: "event/1",
+      title: "Collaboration between XMU and Dublin Business School",
+      subtitle: "14 November 2022",
     },
     {
       id: 4,
-      img: "assets/event.png",
-      title: "BEM",
-      subtitle: "03 November 2022",
+      img: "assets/event4.png",
+      link: "event/1",
+      title: "Student Activities Fill XMUM Campus with Energy",
+      subtitle: "11 November 2022",
     },
   ];
 

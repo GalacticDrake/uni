@@ -10,7 +10,7 @@ export const faculties = [
         code: "N481/6/0834",
         title: "Cyber Security",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0001",
         course_details: {
           duration: 3,
@@ -36,7 +36,7 @@ export const faculties = [
         code: "N481/6/0835",
         title: "Data Science",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0002",
         course_details: {
           duration: 3,
@@ -62,7 +62,7 @@ export const faculties = [
         code: "R/481/6/0707",
         title: "Software Engineering",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0004",
         course_details: {
           duration: 3,
@@ -88,7 +88,7 @@ export const faculties = [
         code: "R/481/6/0706",
         title: "Computer Science and Technology",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0005",
         course_details: {
           duration: 3,
@@ -115,7 +115,7 @@ export const faculties = [
         code: "R/481/6/0705",
         title: "Digital Media Technology",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0015",
         course_details: {
           duration: 3,
@@ -148,7 +148,7 @@ export const faculties = [
         code: "N/345/6/1148",
         title: "E-Commerce",
         course_type: "Bachelor of Management (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0007",
         course_details: {
           duration: 3,
@@ -174,7 +174,7 @@ export const faculties = [
         code: "R/344/6/0417",
         title: "Accounting",
         course_type: "Bachelor of Management (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0008",
         course_details: {
           duration: 3,
@@ -200,7 +200,7 @@ export const faculties = [
         code: "R/343/6/0029",
         title: "Finance",
         course_type: "Bachelor of Economics (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0009",
         course_details: {
           duration: 3,
@@ -226,7 +226,7 @@ export const faculties = [
         code: "R/345/6/0756",
         title: "International Business",
         course_type: "Bachelor of Management (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0010",
         course_details: {
           duration: 3,
@@ -259,7 +259,7 @@ export const faculties = [
         code: "R/522/6/0055",
         title: "New Energy Science and Engineering",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0006",
         course_details: {
           duration: 3,
@@ -285,7 +285,7 @@ export const faculties = [
         code: "R/522/6/0055",
         title: "Chemical Engineering",
         course_type: "Bachelor of Chemical Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0011",
         course_details: {
           duration: 3,
@@ -318,7 +318,7 @@ export const faculties = [
         code: "N/545/6/0101",
         title: "Marine Environmental Chemistry",
         course_type: "Bachelor of Science (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0013",
         course_details: {
           duration: 3,
@@ -344,7 +344,7 @@ export const faculties = [
         code: "R/545/6/0063",
         title: "Marine Biotechnology",
         course_type: "Bachelor of Science (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0014",
         course_details: {
           duration: 3,
@@ -377,7 +377,7 @@ export const faculties = [
         code: "N/224/6/0103",
         title: "English Language and Literature",
         course_type: "Bachelor of Arts (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0016",
         course_details: {
           duration: 3,
@@ -403,7 +403,7 @@ export const faculties = [
         code: "R/224/6/0003",
         title: "Chinese Studies",
         course_type: "Bachelor of Arts (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0017",
         course_details: {
           duration: 3,
@@ -429,7 +429,7 @@ export const faculties = [
         code: "R/321/6/0185",
         title: "Journalism",
         course_type: "Bachelor of Arts (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0018",
         course_details: {
           duration: 3,
@@ -455,7 +455,7 @@ export const faculties = [
         code: "N/321/6/0242",
         title: "Advertising",
         course_type: "Bachelor of Arts (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0019",
         course_details: {
           duration: 3,
@@ -488,7 +488,7 @@ export const faculties = [
         code: "N481/6/0826",
         title: "Artificial Intelligence",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0003",
         course_details: {
           duration: 3,
@@ -514,7 +514,7 @@ export const faculties = [
         code: "R/523/6/0291",
         title: "Electrical and Electronic Engineering",
         course_type: "Bachelor of Engineering (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0020",
         course_details: {
           duration: 3,
@@ -547,7 +547,7 @@ export const faculties = [
         code: "N/721/6/0058",
         title: "Traditional Chinese Medicine",
         course_type: "Bachelor of Medicine (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0021",
         course_details: {
           duration: 3,
@@ -580,7 +580,7 @@ export const faculties = [
         code: "N/461/6/0031",
         title: "Mathematics and Applied Mathematics",
         course_type: "Bachelor of Science (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0022",
         course_details: {
           duration: 3,
@@ -606,7 +606,7 @@ export const faculties = [
         code: "N/441/6/0026",
         title: "Physics",
         course_type: "Bachelor of Science (Honours)",
-        img: "/assets/cs2.jpg",
+        img: "assets/cs2.jpg",
         link: "/programmes/undergrad/0012",
         course_details: {
           duration: 3,
@@ -1166,56 +1166,56 @@ export const facilities = [
     link: "badminton",
     label: "Badminton Court",
     title: "Badminton Court",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 2,
     link: "basketball",
     label: "Basketball Court",
     title: "Basketball Court",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 3,
     link: "cafeteria-d6",
     label: "Cafeteria-D6",
     title: "Cafeteria-D6",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 4,
     link: "cafeteria-ly3",
     label: "Cafeteria-LY3",
     title: "Cafeteria-LY3",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 5,
     link: "counsel",
     label: "Counselling Room",
     title: "Counselling Room",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 6,
     link: "lounge",
     label: "English Lounge",
     title: "English Lounge",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 7,
     link: "football",
     label: "Football Field",
     title: "Football Field",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 8,
     link: "gym",
     label: "Gym",
     title: "Gym",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
 ];
 
@@ -1225,14 +1225,14 @@ export const accommodation = [
     link: "d-block",
     label: "D Block",
     title: "D Block",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
   {
     id: 2,
     link: "ly3-block",
     label: "LY3 Block",
     title: "LY3 Block",
-    img: "/assets/noimage.png",
+    img: "assets/noimage.png",
   },
 ];
 
