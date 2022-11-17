@@ -42,17 +42,17 @@ const Home = () => {
   const buttonLinks = [
     {
       id: "1",
-      link: "./foundation",
+      link: "./programmes/foundation",
       label: "Foundation Studies",
     },
     {
       id: "2",
-      link: "./undergraduate",
+      link: "./programmes/undergrad",
       label: "Undergraduate Degrees",
     },
     {
       id: "3",
-      link: "./postgraduate",
+      link: "./programmes/postgrad",
       label: "Postgraduate",
     },
   ];
