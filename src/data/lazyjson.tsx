@@ -1141,6 +1141,7 @@ export const nav_admissions = [
   { to: "/admissions/application", sublabel: "Application Process" },
   { to: "/admissions/intl", sublabel: "Guidelines for International Students" },
   { to: "/admissions/aid", sublabel: "Scholarship and Financial Aid" },
+  { to: "/admissions/calendar", sublabel: "Academic Calendar" },
   { to: "/admissions/insurance", sublabel: "Student Insurance" },
   { to: "/admissions/faq", sublabel: "Frequently Asked Questions" },
 ];
@@ -1336,7 +1337,7 @@ export const admissions = [
       {
         id: 1,
         info_title: "General Information",
-        info_body: "Pretend there is information here.",
+        info_body: "Assume that there is information here.",
       },
     ],
   },
@@ -1348,7 +1349,7 @@ export const admissions = [
       {
         id: 1,
         info_title: "General Information",
-        info_body: "Pretend there is information here.",
+        info_body: "Assume that there is information here.",
       },
     ],
   },
@@ -1360,7 +1361,7 @@ export const admissions = [
       {
         id: 1,
         info_title: "General Information",
-        info_body: "Pretend there is information here.",
+        info_body: "Assume that there is information here.",
       },
     ],
   },
@@ -1371,6 +1372,18 @@ export const admissions = [
     info: [],
   },
   {
+    title: "Academic Calendar",
+    link: "/admissions/calendar",
+    label: "Academic Calendar",
+    info: [
+      {
+        id: 1,
+        info_title: "General Information",
+        info_body: "Assume that there is a calendar here.",
+      },
+    ],
+  },
+  {
     title: "Student Insurance",
     link: "/admissions/insurance",
     label: "Student Insurance",
@@ -1378,7 +1391,7 @@ export const admissions = [
       {
         id: 1,
         info_title: "General Information",
-        info_body: "Pretend there is information here.",
+        info_body: "Assume that there is information here.",
       },
     ],
   },
@@ -1390,7 +1403,7 @@ export const admissions = [
       {
         id: 1,
         info_title: "General Information",
-        info_body: "Pretend there is information here.",
+        info_body: "Assume that there is information here.",
       },
     ],
   },

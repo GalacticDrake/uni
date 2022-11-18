@@ -130,6 +130,12 @@
   gap: 32px;
 }
 
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
 .breadcrumb-navlink {
   width: fit-content;
 }

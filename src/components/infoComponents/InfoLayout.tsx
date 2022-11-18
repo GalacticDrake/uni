@@ -6,57 +6,65 @@ import "@styles/infoComponents.scss";
 import { Link } from "react-router-dom";
 
 const Dropdown = (props: any) => {
-  const { content, active, isSubcategory } = props || {};
+  const { content, active, isSubcategory, label } = props || {};
+
   let temp_active = null;
 
   if (isSubcategory && active === null) temp_active = "Show all";
   else temp_active = active;
 
-  console.log(temp_active);
-
   return (
-    <div className={"navlink dropdown breadcrumb-navlink"}>
+    <div className={"dropdown-container"}>
       <div className={"dropdown-label blue-text"}>
-        {temp_active}
-        <span className="material-symbols-outlined">expand_more</span>
+        {label !== null ? (isSubcategory ? label[1] : label[0]) : null}
       </div>
-      <div className={"dropdown-content"}>
-        {isSubcategory && active !== null && (
-          <Link to={""} relative="path" className={"sublink"}>
-            {"Show all"}
-          </Link>
-        )}
-        {content.map((item: any, index: number) => {
-          return (
-            <>
-              <Link
-                key={index}
-                to={
-                  isSubcategory ? `./?category=${item.link}` : `../${item.link}`
-                }
-                relative="path"
-                className={"sublink"}
-              >
-                {item.label}
-              </Link>
-            </>
-          );
-        })}
+      <div className={"navlink dropdown breadcrumb-navlink"}>
+        <div className={"dropdown-label blue-text"}>
+          {temp_active}
+          <span className="material-symbols-outlined">expand_more</span>
+        </div>
+        <div className={"dropdown-content"}>
+          {isSubcategory && active !== null && (
+            <Link to={""} relative="path" className={"sublink"}>
+              {"Show all"}
+            </Link>
+          )}
+          {content.map((item: any, index: number) => {
+            return (
+              <>
+                <Link
+                  key={index}
+                  to={
+                    isSubcategory
+                      ? `./?category=${item.link}`
+                      : `../${item.link}`
+                  }
+                  relative="path"
+                  className={"sublink"}
+                >
+                  {item.label}
+                </Link>
+              </>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
 };
 
 const InnerNavigation = (props: any) => {
-  const { programmes, allProgrammes, category, subcategory } = props || {};
+  const { programmes, allProgrammes, category, subcategory, label } =
+    props || {};
 
   return (
     <div className={"breadcrumb-nav body"}>
-      <Dropdown content={programmes} active={category} />
+      <Dropdown content={programmes} active={category} label={label} />
       <Dropdown
         content={allProgrammes}
         active={subcategory}
         isSubcategory={true}
+        label={label}
       />
     </div>
   );

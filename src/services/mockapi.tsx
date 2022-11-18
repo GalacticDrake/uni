@@ -58,7 +58,7 @@ const filterFacultyByName = (data: any, query: any, prog: any) => {
 
       return res;
     } else {
-      console.log("facultyname: an error occurred.");
+      console.log("Facultyname: an error occurred.");
     }
   } catch (e) {
     console.log("Failed to filter faculty name");
@@ -76,8 +76,6 @@ const filterFacultyByTypeAndCategory = (data: any, query: any, prog: any) => {
         child?.category.includes(prog)
       ),
     }));
-
-    console.log(res);
 
     res.map((item: any) => (total = total + item?.courses.length));
 

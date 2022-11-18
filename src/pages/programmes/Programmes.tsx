@@ -23,6 +23,7 @@ const findProgrammes = (location: string) => {
 const Programmes = () => {
   /* for navigation */
   const programmes = fetchProgrammes("all");
+  const label = ["Programme:", "Faculty:"];
 
   /* foundation, undergrad or postgrad in URL:programmeType */
 
@@ -67,6 +68,7 @@ const Programmes = () => {
   return (
     <TwoColumnLayout
       main={result}
+      label={isProgramme ? label : null}
       quicklinks={quicklinks}
       programmes={isProgramme ? programmes : null}
       allProgrammes={allProgrammes}
