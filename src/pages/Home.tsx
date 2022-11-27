@@ -82,6 +82,7 @@ const Home = () => {
             content={tempArray}
             isLinksAvailable={true}
             isHeadingAvailable={true}
+            link={"/page-not-found"}
           />
           <SlideSingleLayout
             bigtitle={"Enroll in Xiamen"}
@@ -96,6 +97,7 @@ const Home = () => {
             content={tempArray}
             isLinksAvailable={true}
             isHeadingAvailable={true}
+            link={"/page-not-found"}
           />
         </>
       }
