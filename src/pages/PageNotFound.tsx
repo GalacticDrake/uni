@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const ToBeUpdated = () => {
   return (
     <div className={"main-container"}>
-      <div className={"body blue-text"}>Page not found</div>
+      <div className={"body blue-text"}>
+        Looks like this page is not found. We could be updating the contents,
+        stay tuned.
+      </div>
       <hr></hr>
       <div>
         <span className={"body"}>Return to </span>

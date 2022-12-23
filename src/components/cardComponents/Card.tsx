@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import "@styles/card.scss";
 
+// temporary data
+import { NEWSIMAGE } from "@data/imagelink";
+
 const CardText = (props: any) => {
   const { content, isGridItem } = props || {};
 
@@ -8,8 +11,17 @@ const CardText = (props: any) => {
     <>
       <div
         className={"image-card-block"}
-        style={{ backgroundImage: `url(${content.img})` }}
-      ></div>
+        style={{
+          backgroundImage: "url(" + NEWSIMAGE[content.img] + ")",
+        }}
+      >
+        {/* <img
+          src={require(`${content.img}`)}
+          alt={content.title}
+          width="100%"
+          height="100%"
+        /> */}
+      </div>
       {isGridItem ? (
         <div className={"body blue-text text-center"}>{content.title}</div>
       ) : (
